@@ -1,0 +1,72 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+background-image: url('backgroundimage.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+table
+{
+    width: 80%;
+    background-color:blueviolet;
+    margin: 40px auto;
+}
+.table-list
+{
+text-align: center;
+width: 100%;
+}
+td
+{
+border: 1px solid rgb(204,200,200);
+text-align: left;
+padding: 8px 15px;
+}
+tr:nth-child(even),table-list thread>tr
+{
+background-color: rgb(204,200,200);
+}
+input[type="text"],input[type="number"]
+{
+    width: 91%;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:1px solid crimson;
+    border-radius: 4px;
+}
+button
+{
+    background: white;
+    padding:6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border:none;
+    border-radius: 30px;
+    color: red;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+}
+.actions button
+{
+    background: white;
+    padding:6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border:none;
+    border-radius: 30px;
+    color: red;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+}
+button:hover
+{
+background-color: royalblue;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS CRUD Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="FormSubmit();">
+
+                    <div>
+                        <label for="ProductCode">Product Code</label>
+                        <input type="text" name="productCode" id="productCode">
+                    </div>
+                    <div>
+                        <label for="ProductName">Product Name </label>
+                        <input type="text" name="productName" id="productName">
+                    </div>
+                    <div>
+                        <label for="ProductQuantity">Product Quantity</label>
+                        <input type="number" name="ProductQuantity" id="ProductQuantity">
+                    </div>
+                    <div>
+                        <label for="ProductPrice">Product Price</label>
+                        <input type="number" name="productPrice" id="productprice">
+                    </div>
+                    <div class="actions">
+                        <button type="submit">submit</button>
+                        <button type="reset">reset</button>
+                    </div>
+                </form>
+            <td>
+                <table class="table-list" id="table-list">
+                    <thead>
+                        <tr>
+                            <th>Product Code</th>
+                            <th>Product Name</th>
+                            <th>Product Quantity</th>
+                            <th>Product Price</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+
+                </table>
+            </td>
+
+        </tr>
+    </table>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
